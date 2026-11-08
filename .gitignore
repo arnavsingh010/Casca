@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production and build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment variables & credentials (Aiven / PostgreSQL credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+aiven-ca.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+logs/
+*.log
+
+# React Native & Expo
+.expo/
+.expo-shared/
+web-build/
+.metro-health-check*
+
+# Android build artifacts
+android/app/build/
+android/.gradle/
+*.apk
+*.aab
+
+# iOS build artifacts
+ios/Pods/
+ios/build/
+*.ipa
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Operating System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor configurations
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
