@@ -45,3 +45,5 @@ export const VALID_SECTIONS_BY_COURSE: Record<CourseName, string[]> = {
   'IT-BI': ['C'],
   ECE: ['D'],
 };
+
+export * from './auth';
