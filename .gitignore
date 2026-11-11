@@ -50,6 +50,17 @@ ios/build/
 coverage/
 .nyc_output/
 
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
 # Operating System files
 .DS_Store
 .AppleDouble
