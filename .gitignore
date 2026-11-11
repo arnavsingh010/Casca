@@ -2,6 +2,7 @@
 node_modules/
 .pnp
 .pnp.js
+.venv
 
 # Production and build outputs
 dist/
